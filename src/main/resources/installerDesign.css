@@ -1,0 +1,11 @@
+.text-input {
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+    -fx-background-color: transparent;
+}
+.text-input:focused {
+    -fx-background-color: white;
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
